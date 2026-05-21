@@ -3,8 +3,8 @@ kind: ApplicationDescription
 metadata:
   id: test-app
   name: Hello-World App
-  description: Eclipse Mosquitto MQTT broker with OpenSSL support
-  version: 2.1.1
+  description: Hello World App
+  version: 0.1
   catalog:
     application:
       icon: ./resources/logo.png
