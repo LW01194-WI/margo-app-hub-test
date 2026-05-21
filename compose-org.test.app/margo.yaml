@@ -4,7 +4,7 @@ metadata:
   id: test-app
   name: Hello-World App
   description: Hello World App
-  version: 0.1
+  version: "0.1"
   catalog:
     application:
       icon: ./resources/logo.png
