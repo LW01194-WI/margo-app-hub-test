@@ -18,44 +18,12 @@ deploymentProfiles:
   - type: compose
     id: hello-world-app
     components:
-      - name: mosquitto-broker
+      - name: hello-world-app
         properties:
-          packageLocation: https://console-dev.flecs.tech/api/v2/manifests/org.mosquitto.broker/2.1.1-alpine
+          packageLocation: https://ghcr.io/lw01194-wi/container/library/hello-world-app-lw:0.2-0
 parameters:
-  mqttPort:
-    value: 1883
+  UI:
+    value: 3000
     targets:
-      - pointer: PORTS.1883
-        components: ["mosquitto-broker"]
-  mqttSecurePort:
-    value: 8883
-    targets:
-      - pointer: PORTS.8883
-        components: ["mosquitto-broker"]
-  websocketPort:
-    value: 9001
-    targets:
-      - pointer: PORTS.9001
-        components: ["mosquitto-broker"]
-configuration:
-  sections:
-    - name: Network Configuration
-      settings:
-        - parameter: mqttPort
-          name: MQTT Port
-          description: Standard MQTT port for unencrypted connections
-          schema: portRange
-        - parameter: mqttSecurePort
-          name: MQTT Secure Port
-          description: MQTT port for TLS/SSL encrypted connections
-          schema: portRange
-        - parameter: websocketPort
-          name: WebSocket Port
-          description: Port for MQTT over WebSocket connections
-          schema: portRange
-  schema:
-    - name: portRange
-      dataType: integer
-      minValue: 1024
-      maxValue: 65535
-      allowEmpty: false
+      - pointer: PORTS.3000
+        components: ["Web-UI"]
