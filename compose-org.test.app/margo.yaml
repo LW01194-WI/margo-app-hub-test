@@ -4,7 +4,7 @@ metadata:
   id: test-app
   name: Hello-World App
   description: Hello World App
-  version: "0.1.3"
+  version: "0.1.4"
   catalog:
     application:
       icon: compose-org.test.app/resources/logo.png
