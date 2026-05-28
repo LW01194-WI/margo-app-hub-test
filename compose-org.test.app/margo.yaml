@@ -7,7 +7,7 @@ metadata:
   version: "0.1.6"
   catalog:
     application:
-      icon: compose-org.test.app/resources/logo.png
+      icon: /compose-org.test.app/resources/logo.png
       tagline: Schnelle App zum Testen der Pipeline
       descriptionFile: ./resources/description.md
       tags: ["test","hello","world"]
