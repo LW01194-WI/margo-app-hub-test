@@ -20,7 +20,7 @@ deploymentProfiles:
     components:
       - name: hello-world-app
         properties:
-          packageLocation: https://ghcr.io/lw01194-wi/container/library/hello-world-app-lw:0.2-0
+          packageLocation: https://ghcr.io/lw01194-wi/container/library/hello-world-app-lw:latest
 parameters:
   UI:
     value: 3000
