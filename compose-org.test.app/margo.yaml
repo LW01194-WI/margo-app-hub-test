@@ -7,7 +7,7 @@ metadata:
   version: "0.1.11-local-IP"
   catalog:
     application:
-      icon: /compose-org.test.app/resources/logo.png
+      icon: https://raw.githubusercontent.com/LW01194-WI/margo-app-hub-test/main/compose-org.test.app/resources/logo.png
       tagline: Schnelle App zum Testen der Pipeline
       descriptionFile: ./resources/description.md
       tags: ["test","hello","world"]
