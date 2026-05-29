@@ -4,7 +4,7 @@ metadata:
   id: test-app
   name: Hello-World App
   description: Hello World App
-  version: "0.1.7"
+  version: "0.1.8"
   catalog:
     application:
       icon: /compose-org.test.app/resources/logo.png
@@ -20,7 +20,7 @@ deploymentProfiles:
     components:
       - name: hello-world-app
         properties:
-          packageLocation: https://raw.githubusercontent.com/LW01194-WI/hello-world-FLECS-App/041f2e75652460889d24640090cb9ac55d796e1f/manifest.json
+          packageLocation: https://raw.githubusercontent.com/LW01194-WI/hello-world-FLECS-App/041f2e75652460889d24640090cb9ac55d796e1f/manifest.yaml
 parameters:
   UI:
     value: 3000
