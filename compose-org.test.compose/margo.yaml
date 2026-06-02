@@ -4,7 +4,7 @@ metadata:
   id: test-app-compose
   name: Hello-World App compose
   description: Hello World App with a compose file as package location
-  version: "0.2-github"
+  version: "0.3-github"
   catalog:
     organization:
       - name: Weidmüller Development
@@ -15,5 +15,5 @@ deploymentProfiles:
     components:
       - name: hello-world-app
         properties:
-          packageLocation: https://raw.githubusercontent.com/LW01194-WI/hello-world-FLECS-App/refs/heads/main/docker-compose.yml
+          packageLocation: https://raw.githubusercontent.com/LW01194-WI/hello-world-FLECS-App/refs/heads/main/docker-compose.yaml
 
