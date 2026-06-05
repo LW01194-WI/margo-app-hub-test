@@ -4,7 +4,7 @@ metadata:
   id: test-app
   name: Hello-World App
   description: Hello World App
-  version: "0.2-azure"
+  version: "0.2.1-azure"
   catalog:
     organization:
       - name: Weidmüller Development
@@ -15,7 +15,7 @@ deploymentProfiles:
     components:
       - name: hello-world-app
         properties:
-          packageLocation: https://margo2.germanywestcentral.cloudapp.azure.com:3000/margo/margo-app-hub-test/raw/branch/main/compose-org.test.app/margo.yaml
+          packageLocation: https://margo2.germanywestcentral.cloudapp.azure.com:3000/margo/hello-world-FLECS-app/raw/branch/main/manifest.json
 parameters:
   UI:
     value: 3000
