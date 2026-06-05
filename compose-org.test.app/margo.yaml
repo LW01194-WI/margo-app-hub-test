@@ -4,13 +4,8 @@ metadata:
   id: test-app
   name: Hello-World App
   description: Hello World App
-  version: "0.1.11-local-IP"
+  version: "0.2-azure"
   catalog:
-    application:
-      icon: https://raw.githubusercontent.com/LW01194-WI/margo-app-hub-test/main/compose-org.test.app/resources/logo.png
-      tagline: Schnelle App zum Testen der Pipeline
-      descriptionFile: ./resources/description.md
-      tags: ["test","hello","world"]
     organization:
       - name: Weidmüller Development
         site: weidmueller.com
@@ -20,7 +15,7 @@ deploymentProfiles:
     components:
       - name: hello-world-app
         properties:
-          packageLocation: http://10.7.0.115:3020/l.wittemeier/hello-world-FLECS-app/raw/branch/main/manifest.json
+          packageLocation: https://margo2.germanywestcentral.cloudapp.azure.com:3000/margo/margo-app-hub-test/raw/branch/main/compose-org.test.app/margo.yaml
 parameters:
   UI:
     value: 3000
