@@ -4,7 +4,7 @@ metadata:
   id: test-app-compose
   name: Hello-World App compose
   description: Hello World App with a compose file as package location
-  version: "0.3-github"
+  version: "0.3-azure"
   catalog:
     organization:
       - name: Weidmüller Development
