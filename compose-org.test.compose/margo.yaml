@@ -4,7 +4,7 @@ metadata:
   id: test-app-compose
   name: Hello-World App compose
   description: Hello World App with a compose file as package location
-  version: "0.3-azure"
+  version: "0.3.1-requiredResources"
   catalog:
     organization:
       - name: Weidmüller Development
@@ -12,6 +12,10 @@ metadata:
 deploymentProfiles:
   - type: compose
     id: hello-world-app
+    requiredResources:
+        - cpu:
+            - architectures: 
+                - amd64
     components:
       - name: hello-world-app
         properties:
