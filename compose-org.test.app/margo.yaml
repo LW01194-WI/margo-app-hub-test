@@ -4,7 +4,7 @@ metadata:
   id: test-app
   name: Hello-World App
   description: Hello World App
-  version: "0.2.1-azure"
+  version: "0.2.2-requiredResources"
   catalog:
     organization:
       - name: Weidmüller Development
@@ -12,6 +12,10 @@ metadata:
 deploymentProfiles:
   - type: compose
     id: hello-world-app
+    requiredResources:
+        - cpu:
+            - architectures: 
+                - amd64
     components:
       - name: hello-world-app
         properties:
