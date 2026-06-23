@@ -4,7 +4,7 @@ metadata:
   id: test-app
   name: Hello-World App
   description: Hello World App
-  version: "0.2.2-requiredResources"
+  version: "0.2.3-requiredResources"
   catalog:
     organization:
       - name: Weidmüller Development
@@ -14,8 +14,7 @@ deploymentProfiles:
     id: hello-world-app
     requiredResources:
         - cpu:
-            - architectures: 
-                - amd64
+            - cores: 3.0
     components:
       - name: hello-world-app
         properties:
