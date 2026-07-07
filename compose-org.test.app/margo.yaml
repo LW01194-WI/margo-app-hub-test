@@ -1,7 +1,7 @@
 apiVersion: margo.org/v1-alpha1
 kind: ApplicationDescription
+id: test-app
 metadata:
-  id: test-app
   name: Hello-World App
   description: Hello World App
   version: "0.2.3-requiredResources"
