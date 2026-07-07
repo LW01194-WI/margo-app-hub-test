@@ -4,7 +4,7 @@ metadata:
   id: test-app-tar
   name: Hello-World App tar
   description: Hello World App with a .tar file as package location
-  version: "0.1"
+  version: "0.2"
   catalog:
     organization:
       - name: Weidmüller Development
