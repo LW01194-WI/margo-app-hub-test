@@ -4,7 +4,7 @@ id: demo-app
 metadata:
   name: Hello-World DEMO App
   description: Hello World App
-  version: "0.3-0"
+  version: "0.4-0"
   catalog:
     organization:
       - name: Weidmüller Development
@@ -15,7 +15,7 @@ deploymentProfiles:
     components:
       - name: demo-app
         properties:
-          packageLocation: https://margo2.germanywestcentral.cloudapp.azure.com:3000/margo/hello-world-FLECS-app/raw/commit/e23d7d75dad565037213d12e2348658e9e20b6be/manifest.json
+          packageLocation: https://margo2.germanywestcentral.cloudapp.azure.com:3000/margo/hello-world-FLECS-app/raw/commit/e38ec6db9a07aa693accbffc9ae4334d3618db97/manifest.json
 parameters:
   UI:
     value: 3000
