@@ -4,7 +4,7 @@ id: test-app
 metadata:
   name: Hello-World App
   description: Hello World App
-  version: "0.2.3-requiredResources"
+  version: "0.2.4-requiredResources"
   catalog:
     organization:
       - name: Weidmüller Development
